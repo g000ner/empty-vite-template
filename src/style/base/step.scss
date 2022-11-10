@@ -1,0 +1,29 @@
+@import '../ulils/text.scss';
+
+.step {
+  width: 240px;
+  height: 188px;
+
+  position: relative;
+  padding-top: 28px;
+
+  &__number {
+    top: 0;
+    padding: 12px 20px;
+    position: absolute;
+
+    background: #333333;
+    border-radius: 16px;
+
+    @include font(24px, 32px, 800, var(--base-01));
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+
+  &__content {
+    padding: 32px;
+    padding-top: 56px;
+
+    text-align: center;
+  }
+}

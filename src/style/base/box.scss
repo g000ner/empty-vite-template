@@ -1,0 +1,19 @@
+.box {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-top: 76px;
+
+    h2 {
+      @include text-h2();
+    }
+  }
+
+  &__content {
+    width: 100%;
+    padding: 24px 0;
+    justify-content: space-between;
+  }
+}
