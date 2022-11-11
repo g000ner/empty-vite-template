@@ -48,6 +48,11 @@
       &:last-child {
         margin-bottom: 0;
       }
+
+      &:hover {
+        background-color: #e4ebf3;
+        cursor: pointer;
+      }
     }
 
     &__submit-box {
