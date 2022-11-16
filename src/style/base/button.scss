@@ -1,0 +1,34 @@
+@import '../ulils/text.scss';
+
+.button {
+  padding: 16px 36px;
+
+  background-color: #ffdd2d;
+  border-radius: 8px;
+  border: 2px solid transparent;
+
+  $color: rgba(0, 0, 0, 0.8);
+  @include font(15px, $color: $color);
+
+  text-decoration: none;
+
+  transition: color 0.3s, background-color 0.3s;
+
+  cursor: pointer;
+
+  &:hover {
+    background-color: #fcc521;
+    color: $color;
+  }
+
+  &:active {
+    background-color: #fab619;
+    color: $color;
+  }
+
+  &:focus {
+    background-color: #ffdd2d;
+    border: 2px solid rgba(51, 51, 51, 0.48);
+    color: $color;
+  }
+}

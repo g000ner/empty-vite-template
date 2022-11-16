@@ -1,0 +1,18 @@
+.box {
+  &__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 76px;
+
+    h2 {
+      @include text-h2();
+    }
+  }
+
+  &__content {
+    padding: 24px 0;
+    justify-content: space-between;
+  }
+}

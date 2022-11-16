@@ -1,0 +1,27 @@
+@import '../ulils/text.scss';
+
+.course-preview {
+  margin-top: 40px;
+
+  padding: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 64px;
+
+    h2 {
+      @include text-h2();
+    }
+
+    p {
+      margin-bottom: 40px;
+    }
+  }
+}

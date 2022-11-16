@@ -1,0 +1,24 @@
+@import './src/style/grid/flex-grid.scss';
+@import './src/style/base/variables.scss';
+@import './src/style/reset.scss';
+@import './src/style/base/app.scss';
+@import './src/style/base/container.scss';
+@import './src/style/header.scss';
+@import './src/style/ulils/animation.scss';
+@import './src/style/base/base.scss';
+@import './src/style/base/course-preview-section.scss';
+@import './src/style/base/button.scss';
+@import './src/style/base/box.scss';
+@import './src/style/base/panel.scss';
+@import './src/style/base/list.scss';
+@import './src/style/base/card.scss';
+@import './src/style/base/sections-list.scss';
+@import './src/style/base/step.scss';
+@import './src/style/base/request.scss';
+@import './src/style/base/arrow.scss';
+@import './src/style/base/check.scss';
+@import './src/style/footer.scss';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,10 @@
+@use 'sass:meta';
+
+@mixin transition(
+  $property: all,
+  $duration: 0.3s,
+  $delay: 0s,
+  $ease: ease-in-out
+) {
+  transition: #{$property} + ' ' + #{$duration} + ' ' + #{$delay} + ' ' + #{$ease};
+}

@@ -1,0 +1,18 @@
+@import './ulils/text.scss';
+
+.footer {
+  box-sizing: border-box;
+
+  padding-top: 64px;
+
+  @include font(13px, 20px, 400, var(--text-02));
+
+  &__box {
+    box-shadow: inset 0px 1px 0px #e7e8ea;
+
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
