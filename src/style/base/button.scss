@@ -3,35 +3,32 @@
 .button {
   padding: 16px 36px;
 
-  background: #ffdd2d;
+  background-color: #ffdd2d;
   border-radius: 8px;
+  border: 2px solid transparent;
 
   $color: rgba(0, 0, 0, 0.8);
   @include font(15px, $color: $color);
 
   text-decoration: none;
 
-  transition-duration: 0.3s;
+  transition: color 0.3s, background-color 0.3s;
+
+  cursor: pointer;
 
   &:hover {
-    background: #fcc521;
+    background-color: #fcc521;
     color: $color;
-
-    transition: 0.3s;
   }
 
   &:active {
-    background: #fab619;
+    background-color: #fab619;
     color: $color;
-
-    transition: 0.3s;
   }
 
   &:focus {
-    background: #ffdd2d;
+    background-color: #ffdd2d;
     border: 2px solid rgba(51, 51, 51, 0.48);
     color: $color;
-
-    transition: 0.3s;
   }
 }
